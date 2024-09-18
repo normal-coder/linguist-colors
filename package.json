@@ -1,0 +1,56 @@
+{
+  "name": "linguist-colors",
+  "version": "1.0.0",
+  "description": "Programming language colors generated based on GitHub/linguist",
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --testPathPattern=test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/normal-coder/linguist-colors"
+  },
+  "keywords": [
+    "linguist",
+    "programming",
+    "programming-language",
+    "colors",
+    "language"
+  ],
+  "author": {
+    "name": "诺墨",
+    "email": "normal@normalcoder.com",
+    "url": "https://gitee.com/normalcoder",
+    "githubUsername": "normal-coder"
+  },
+  "contributors": [
+    {
+      "name": "诺墨",
+      "email": "normal@normalcoder.com",
+      "url": "https://gitee.com/normalcoder",
+      "githubUsername": "normal-coder"
+    },
+    {
+      "name": "LorenzoBloedow",
+      "email": "lorenzobloedow@gmail.com",
+      "url": "https://github.com/LorenzoBloedow",
+      "githubUsername": "LorenzoBloedow"
+    }
+  ],
+  "license": "MIT",
+  "files": [
+    "/dist"
+  ],
+  "devDependencies": {
+    "@babel/preset-env": "^7.19.4",
+    "@types/jest": "^29.2.1",
+    "babel-jest": "^29.2.2",
+    "express": "^4.18.2",
+    "jest": "^29.2.2",
+    "ts-jest": "^29.0.3",
+    "typescript": "^4.8.4"
+  }
+}
