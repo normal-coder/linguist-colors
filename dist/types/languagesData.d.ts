@@ -6243,4 +6243,4 @@ declare const _default: {
     };
 };
 export default _default;
-//# sourceMappingURL=languages.d.ts.map
+//# sourceMappingURL=languagesData.d.ts.map
