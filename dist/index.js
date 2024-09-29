@@ -1,8 +1,8 @@
-import languagesData from "./languagesData";
+import { languagesData } from "./languages";
 import { hexToRGB, RGBToString, RGBToHSL } from "./converter";
 export default function getProgrammingLangColor(programmingLanguage, format = "HEX") {
     const language = languagesData[programmingLanguage];
-    if (!language || language.type !== "programming") {
+    if (!language || language.type !== "programming" || !('color' in language) || !language.color) {
         return null;
     }
     const color = language.color;

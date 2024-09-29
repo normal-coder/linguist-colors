@@ -6,7 +6,9 @@
       "declarationDir": "./dist/types",
       "declarationMap": true,
       "outDir": "./dist",
-      "moduleResolution": "Node"
+      "moduleResolution": "Node",
+      "resolveJsonModule": true,
+      "allowSyntheticDefaultImports": true,
     },
     "include": [
       "src/*"

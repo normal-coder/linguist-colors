@@ -1,4 +1,4 @@
-declare const _default: {
+export declare const languagesData: {
     "1C Enterprise": {
         type: string;
         color: string;
@@ -383,12 +383,31 @@ declare const _default: {
         ace_mode: string;
         language_id: number;
     };
+    B4X: {
+        type: string;
+        color: string;
+        extensions: string[];
+        tm_scope: string;
+        aliases: string[];
+        ace_mode: string;
+        codemirror_mode: string;
+        codemirror_mime_type: string;
+        language_id: number;
+    };
     BASIC: {
         type: string;
         extensions: string[];
         tm_scope: string;
         ace_mode: string;
         color: string;
+        language_id: number;
+    };
+    BQN: {
+        type: string;
+        color: string;
+        extensions: string[];
+        tm_scope: string;
+        ace_mode: string;
         language_id: number;
     };
     Ballerina: {
@@ -510,8 +529,23 @@ declare const _default: {
         type: string;
         color: string;
         extensions: string[];
+        aliases: string[];
         tm_scope: string;
         ace_mode: string;
+        codemirror_mode: string;
+        codemirror_mime_type: string;
+        language_id: number;
+    };
+    "Bluespec BH": {
+        type: string;
+        group: string;
+        color: string;
+        extensions: string[];
+        aliases: string[];
+        tm_scope: string;
+        ace_mode: string;
+        codemirror_mode: string;
+        codemirror_mime_type: string;
         language_id: number;
     };
     Boo: {
@@ -733,6 +767,16 @@ declare const _default: {
         tm_scope: string;
         language_id: number;
     };
+    Caddyfile: {
+        type: string;
+        color: string;
+        aliases: string[];
+        extensions: string[];
+        filenames: string[];
+        ace_mode: string;
+        tm_scope: string;
+        language_id: number;
+    };
     Cadence: {
         type: string;
         color: string;
@@ -747,6 +791,16 @@ declare const _default: {
         ace_mode: string;
         tm_scope: string;
         extensions: string[];
+        group: string;
+        language_id: number;
+    };
+    "Cairo Zero": {
+        type: string;
+        color: string;
+        ace_mode: string;
+        tm_scope: string;
+        extensions: string[];
+        group: string;
         language_id: number;
     };
     CameLIGO: {
@@ -766,6 +820,16 @@ declare const _default: {
         tm_scope: string;
         extensions: string[];
         ace_mode: string;
+        language_id: number;
+    };
+    Carbon: {
+        type: string;
+        color: string;
+        extensions: string[];
+        ace_mode: string;
+        codemirror_mode: string;
+        codemirror_mime_type: string;
+        tm_scope: string;
         language_id: number;
     };
     CartoCSS: {
@@ -817,6 +881,14 @@ declare const _default: {
         ace_mode: string;
         codemirror_mode: string;
         codemirror_mime_type: string;
+        language_id: number;
+    };
+    Circom: {
+        type: string;
+        ace_mode: string;
+        extensions: string[];
+        color: string;
+        tm_scope: string;
         language_id: number;
     };
     Cirru: {
@@ -1087,6 +1159,16 @@ declare const _default: {
         codemirror_mime_type: string;
         language_id: number;
     };
+    Cylc: {
+        type: string;
+        color: string;
+        extensions: string[];
+        filenames: string[];
+        tm_scope: string;
+        ace_mode: string;
+        group: string;
+        language_id: number;
+    };
     Cypher: {
         type: string;
         color: string;
@@ -1120,6 +1202,15 @@ declare const _default: {
     "D-ObjDump": {
         type: string;
         extensions: string[];
+        tm_scope: string;
+        ace_mode: string;
+        language_id: number;
+    };
+    D2: {
+        type: string;
+        color: string;
+        extensions: string[];
+        aliases: string[];
         tm_scope: string;
         ace_mode: string;
         language_id: number;
@@ -1262,6 +1353,23 @@ declare const _default: {
         ace_mode: string;
         language_id: number;
     };
+    Dotenv: {
+        type: string;
+        color: string;
+        extensions: string[];
+        filenames: string[];
+        tm_scope: string;
+        ace_mode: string;
+        language_id: number;
+    };
+    Dune: {
+        type: string;
+        ace_mode: string;
+        filenames: string[];
+        tm_scope: string;
+        color: string;
+        language_id: number;
+    };
     Dylan: {
         type: string;
         color: string;
@@ -1377,10 +1485,40 @@ declare const _default: {
         codemirror_mime_type: string;
         language_id: number;
     };
+    Ecmarkup: {
+        type: string;
+        color: string;
+        group: string;
+        extensions: string[];
+        tm_scope: string;
+        ace_mode: string;
+        codemirror_mode: string;
+        codemirror_mime_type: string;
+        aliases: string[];
+        language_id: number;
+    };
+    Edge: {
+        type: string;
+        color: string;
+        extensions: string[];
+        tm_scope: string;
+        ace_mode: string;
+        language_id: number;
+    };
+    EdgeQL: {
+        type: string;
+        color: string;
+        aliases: string[];
+        extensions: string[];
+        ace_mode: string;
+        tm_scope: string;
+        language_id: number;
+    };
     EditorConfig: {
         type: string;
         color: string;
         group: string;
+        extensions: string[];
         filenames: string[];
         aliases: string[];
         ace_mode: string;
@@ -1433,6 +1571,14 @@ declare const _default: {
         ace_mode: string;
         extensions: string[];
         interpreters: string[];
+        tm_scope: string;
+        color: string;
+        language_id: number;
+    };
+    "Elvish Transcript": {
+        type: string;
+        group: string;
+        ace_mode: string;
         tm_scope: string;
         color: string;
         language_id: number;
@@ -1505,6 +1651,14 @@ declare const _default: {
         type: string;
         color: string;
         aliases: string[];
+        extensions: string[];
+        tm_scope: string;
+        ace_mode: string;
+        language_id: number;
+    };
+    FIRRTL: {
+        type: string;
+        color: string;
         extensions: string[];
         tm_scope: string;
         ace_mode: string;
@@ -1785,7 +1939,7 @@ declare const _default: {
         tm_scope: string;
         language_id: number;
     };
-    Genero: {
+    "Genero 4gl": {
         type: string;
         color: string;
         extensions: string[];
@@ -1793,7 +1947,7 @@ declare const _default: {
         ace_mode: string;
         language_id: number;
     };
-    "Genero Forms": {
+    "Genero per": {
         type: string;
         color: string;
         extensions: string[];
@@ -1872,7 +2026,6 @@ declare const _default: {
     "Git Attributes": {
         type: string;
         color: string;
-        group: string;
         aliases: string[];
         filenames: string[];
         tm_scope: string;
@@ -1909,6 +2062,24 @@ declare const _default: {
         ace_mode: string;
         extensions: string[];
         tm_scope: string;
+        language_id: number;
+    };
+    "Glimmer JS": {
+        type: string;
+        extensions: string[];
+        ace_mode: string;
+        color: string;
+        tm_scope: string;
+        group: string;
+        language_id: number;
+    };
+    "Glimmer TS": {
+        type: string;
+        extensions: string[];
+        ace_mode: string;
+        color: string;
+        tm_scope: string;
+        group: string;
         language_id: number;
     };
     Glyph: {
@@ -1966,6 +2137,24 @@ declare const _default: {
         ace_mode: string;
         language_id: number;
     };
+    "Go Workspace": {
+        type: string;
+        color: string;
+        aliases: string[];
+        filenames: string[];
+        tm_scope: string;
+        ace_mode: string;
+        language_id: number;
+    };
+    "Godot Resource": {
+        type: string;
+        color: string;
+        extensions: string[];
+        filenames: string[];
+        tm_scope: string;
+        ace_mode: string;
+        language_id: number;
+    };
     Golo: {
         type: string;
         color: string;
@@ -1996,6 +2185,15 @@ declare const _default: {
         extensions: string[];
         tm_scope: string;
         ace_mode: string;
+        language_id: number;
+    };
+    "Gradle Kotlin DSL": {
+        group: string;
+        type: string;
+        color: string;
+        extensions: string[];
+        ace_mode: string;
+        tm_scope: string;
         language_id: number;
     };
     "Grammatical Framework": {
@@ -2067,6 +2265,7 @@ declare const _default: {
     };
     HCL: {
         type: string;
+        color: string;
         extensions: string[];
         aliases: string[];
         ace_mode: string;
@@ -2087,6 +2286,7 @@ declare const _default: {
         type: string;
         color: string;
         extensions: string[];
+        filenames: string[];
         tm_scope: string;
         ace_mode: string;
         language_id: number;
@@ -2255,6 +2455,15 @@ declare const _default: {
         codemirror_mime_type: string;
         language_id: number;
     };
+    "Hosts File": {
+        type: string;
+        color: string;
+        filenames: string[];
+        aliases: string[];
+        tm_scope: string;
+        ace_mode: string;
+        language_id: number;
+    };
     Hy: {
         type: string;
         ace_mode: string;
@@ -2324,7 +2533,6 @@ declare const _default: {
     "Ignore List": {
         type: string;
         color: string;
-        group: string;
         aliases: string[];
         extensions: string[];
         filenames: string[];
@@ -2357,6 +2565,14 @@ declare const _default: {
         extensions: string[];
         tm_scope: string;
         aliases: string[];
+        ace_mode: string;
+        language_id: number;
+    };
+    Ink: {
+        type: string;
+        wrap: boolean;
+        extensions: string[];
+        tm_scope: string;
         ace_mode: string;
         language_id: number;
     };
@@ -2416,6 +2632,14 @@ declare const _default: {
         type: string;
         color: string;
         filenames: string[];
+        tm_scope: string;
+        ace_mode: string;
+        language_id: number;
+    };
+    JCL: {
+        type: string;
+        color: string;
+        extensions: string[];
         tm_scope: string;
         ace_mode: string;
         language_id: number;
@@ -2535,6 +2759,16 @@ declare const _default: {
         codemirror_mime_type: string;
         language_id: number;
     };
+    "Java Template Engine": {
+        type: string;
+        color: string;
+        group: string;
+        aliases: string[];
+        extensions: string[];
+        ace_mode: string;
+        tm_scope: string;
+        language_id: number;
+    };
     JavaScript: {
         type: string;
         tm_scope: string;
@@ -2637,6 +2871,14 @@ declare const _default: {
         codemirror_mime_type: string;
         language_id: number;
     };
+    "Julia REPL": {
+        type: string;
+        color: string;
+        tm_scope: string;
+        group: string;
+        ace_mode: string;
+        language_id: number;
+    };
     "Jupyter Notebook": {
         type: string;
         ace_mode: string;
@@ -2647,6 +2889,16 @@ declare const _default: {
         extensions: string[];
         filenames: string[];
         aliases: string[];
+        language_id: number;
+    };
+    Just: {
+        type: string;
+        aliases: string[];
+        color: string;
+        tm_scope: string;
+        filenames: string[];
+        extensions: string[];
+        ace_mode: string;
         language_id: number;
     };
     KRL: {
@@ -2678,6 +2930,14 @@ declare const _default: {
         ace_mode: string;
         language_id: number;
     };
+    KerboScript: {
+        type: string;
+        ace_mode: string;
+        extensions: string[];
+        color: string;
+        tm_scope: string;
+        language_id: number;
+    };
     "KiCad Layout": {
         type: string;
         color: string;
@@ -2705,6 +2965,13 @@ declare const _default: {
         extensions: string[];
         tm_scope: string;
         ace_mode: string;
+        language_id: number;
+    };
+    Kickstart: {
+        type: string;
+        ace_mode: string;
+        extensions: string[];
+        tm_scope: string;
         language_id: number;
     };
     Kit: {
@@ -2823,6 +3090,14 @@ declare const _default: {
         ace_mode: string;
         language_id: number;
     };
+    "Lean 4": {
+        type: string;
+        group: string;
+        extensions: string[];
+        tm_scope: string;
+        ace_mode: string;
+        language_id: number;
+    };
     Less: {
         type: string;
         color: string;
@@ -2925,6 +3200,14 @@ declare const _default: {
         codemirror_mime_type: string;
         language_id: number;
     };
+    "LiveCode Script": {
+        type: string;
+        color: string;
+        extensions: string[];
+        tm_scope: string;
+        ace_mode: string;
+        language_id: number;
+    };
     LiveScript: {
         type: string;
         color: string;
@@ -2981,6 +3264,17 @@ declare const _default: {
         interpreters: string[];
         language_id: number;
     };
+    Luau: {
+        type: string;
+        tm_scope: string;
+        ace_mode: string;
+        codemirror_mode: string;
+        codemirror_mime_type: string;
+        color: string;
+        extensions: string[];
+        interpreters: string[];
+        language_id: number;
+    };
     M: {
         type: string;
         aliases: string[];
@@ -3025,6 +3319,17 @@ declare const _default: {
         extensions: string[];
         tm_scope: string;
         ace_mode: string;
+        language_id: number;
+    };
+    MDX: {
+        type: string;
+        color: string;
+        ace_mode: string;
+        codemirror_mode: string;
+        codemirror_mime_type: string;
+        wrap: boolean;
+        extensions: string[];
+        tm_scope: string;
         language_id: number;
     };
     MLIR: {
@@ -3285,6 +3590,16 @@ declare const _default: {
         ace_mode: string;
         language_id: number;
     };
+    Mojo: {
+        type: string;
+        color: string;
+        extensions: string[];
+        ace_mode: string;
+        codemirror_mode: string;
+        codemirror_mime_type: string;
+        tm_scope: string;
+        language_id: number;
+    };
     Monkey: {
         type: string;
         extensions: string[];
@@ -3395,6 +3710,14 @@ declare const _default: {
     };
     NL: {
         type: string;
+        extensions: string[];
+        tm_scope: string;
+        ace_mode: string;
+        language_id: number;
+    };
+    NMODL: {
+        type: string;
+        color: string;
         extensions: string[];
         tm_scope: string;
         ace_mode: string;
@@ -3545,6 +3868,17 @@ declare const _default: {
         ace_mode: string;
         language_id: number;
     };
+    Noir: {
+        type: string;
+        aliases: string[];
+        ace_mode: string;
+        codemirror_mode: string;
+        codemirror_mime_type: string;
+        extensions: string[];
+        color: string;
+        tm_scope: string;
+        language_id: number;
+    };
     Nu: {
         type: string;
         color: string;
@@ -3576,6 +3910,18 @@ declare const _default: {
         aliases: string[];
         tm_scope: string;
         ace_mode: string;
+        language_id: number;
+    };
+    Nushell: {
+        type: string;
+        color: string;
+        extensions: string[];
+        interpreters: string[];
+        aliases: string[];
+        tm_scope: string;
+        ace_mode: string;
+        codemirror_mode: string;
+        codemirror_mime_type: string;
         language_id: number;
     };
     "OASv2-json": {
@@ -3631,6 +3977,13 @@ declare const _default: {
         extensions: string[];
         interpreters: string[];
         tm_scope: string;
+        language_id: number;
+    };
+    Oberon: {
+        type: string;
+        extensions: string[];
+        tm_scope: string;
+        ace_mode: string;
         language_id: number;
     };
     ObjDump: {
@@ -3917,6 +4270,14 @@ declare const _default: {
         ace_mode: string;
         language_id: number;
     };
+    Pact: {
+        type: string;
+        color: string;
+        ace_mode: string;
+        tm_scope: string;
+        extensions: string[];
+        language_id: number;
+    };
     Pan: {
         type: string;
         color: string;
@@ -4007,6 +4368,7 @@ declare const _default: {
         group: string;
         tm_scope: string;
         extensions: string[];
+        aliases: string[];
         ace_mode: string;
         codemirror_mode: string;
         codemirror_mime_type: string;
@@ -4045,8 +4407,26 @@ declare const _default: {
         ace_mode: string;
         language_id: number;
     };
+    "Pip Requirements": {
+        type: string;
+        color: string;
+        filenames: string[];
+        ace_mode: string;
+        tm_scope: string;
+        language_id: number;
+    };
+    Pkl: {
+        type: string;
+        color: string;
+        extensions: string[];
+        interpreters: string[];
+        tm_scope: string;
+        ace_mode: string;
+        language_id: number;
+    };
     PlantUML: {
         type: string;
+        color: string;
         extensions: string[];
         tm_scope: string;
         ace_mode: string;
@@ -4139,6 +4519,14 @@ declare const _default: {
         aliases: string[];
         extensions: string[];
         interpreters: string[];
+        language_id: number;
+    };
+    Praat: {
+        type: string;
+        color: string;
+        tm_scope: string;
+        ace_mode: string;
+        extensions: string[];
         language_id: number;
     };
     Prisma: {
@@ -4270,6 +4658,14 @@ declare const _default: {
         codemirror_mime_type: string;
         language_id: number;
     };
+    Pyret: {
+        type: string;
+        color: string;
+        extensions: string[];
+        ace_mode: string;
+        tm_scope: string;
+        language_id: number;
+    };
     Python: {
         type: string;
         tm_scope: string;
@@ -4368,6 +4764,17 @@ declare const _default: {
         extensions: string[];
         language_id: number;
     };
+    RBS: {
+        type: string;
+        ace_mode: string;
+        codemirror_mode: string;
+        codemirror_mime_type: string;
+        extensions: string[];
+        color: string;
+        tm_scope: string;
+        group: string;
+        language_id: number;
+    };
     RDoc: {
         type: string;
         color: string;
@@ -4402,6 +4809,14 @@ declare const _default: {
         codemirror_mode: string;
         codemirror_mime_type: string;
         extensions: string[];
+        tm_scope: string;
+        language_id: number;
+    };
+    RON: {
+        type: string;
+        color: string;
+        extensions: string[];
+        ace_mode: string;
         tm_scope: string;
         language_id: number;
     };
@@ -4595,6 +5010,14 @@ declare const _default: {
         ace_mode: string;
         language_id: number;
     };
+    Rez: {
+        type: string;
+        extensions: string[];
+        tm_scope: string;
+        ace_mode: string;
+        color: string;
+        language_id: number;
+    };
     "Rich Text Format": {
         type: string;
         extensions: string[];
@@ -4619,6 +5042,14 @@ declare const _default: {
         language_id: number;
     };
     RobotFramework: {
+        type: string;
+        color: string;
+        extensions: string[];
+        tm_scope: string;
+        ace_mode: string;
+        language_id: number;
+    };
+    Roc: {
         type: string;
         color: string;
         extensions: string[];
@@ -4692,6 +5123,7 @@ declare const _default: {
         ace_mode: string;
         codemirror_mode: string;
         codemirror_mime_type: string;
+        interpreters: string[];
         language_id: number;
     };
     SAS: {
@@ -5020,6 +5452,14 @@ declare const _default: {
         codemirror_mime_type: string;
         language_id: number;
     };
+    Slint: {
+        type: string;
+        color: string;
+        extensions: string[];
+        tm_scope: string;
+        ace_mode: string;
+        language_id: number;
+    };
     SmPL: {
         type: string;
         extensions: string[];
@@ -5055,6 +5495,29 @@ declare const _default: {
         codemirror_mode: string;
         codemirror_mime_type: string;
         tm_scope: string;
+        language_id: number;
+    };
+    Smithy: {
+        type: string;
+        ace_mode: string;
+        codemirror_mode: string;
+        codemirror_mime_type: string;
+        tm_scope: string;
+        color: string;
+        extensions: string[];
+        language_id: number;
+    };
+    Snakemake: {
+        type: string;
+        group: string;
+        tm_scope: string;
+        ace_mode: string;
+        codemirror_mode: string;
+        codemirror_mime_type: string;
+        color: string;
+        extensions: string[];
+        filenames: string[];
+        aliases: string[];
         language_id: number;
     };
     Solidity: {
@@ -5190,6 +5653,24 @@ declare const _default: {
         extensions: string[];
         language_id: number;
     };
+    Sway: {
+        type: string;
+        color: string;
+        extensions: string[];
+        tm_scope: string;
+        ace_mode: string;
+        codemirror_mode: string;
+        codemirror_mime_type: string;
+        language_id: number;
+    };
+    Sweave: {
+        type: string;
+        color: string;
+        extensions: string[];
+        tm_scope: string;
+        ace_mode: string;
+        language_id: number;
+    };
     Swift: {
         type: string;
         color: string;
@@ -5217,6 +5698,14 @@ declare const _default: {
         extensions: string[];
         language_id: number;
         tm_scope: string;
+    };
+    "TL-Verilog": {
+        type: string;
+        extensions: string[];
+        tm_scope: string;
+        ace_mode: string;
+        color: string;
+        language_id: number;
     };
     TLA: {
         type: string;
@@ -5251,6 +5740,7 @@ declare const _default: {
         ace_mode: string;
         tm_scope: string;
         extensions: string[];
+        aliases: string[];
         language_id: number;
     };
     TSX: {
@@ -5334,6 +5824,17 @@ declare const _default: {
         interpreters: string[];
         language_id: number;
     };
+    "Terraform Template": {
+        type: string;
+        extensions: string[];
+        color: string;
+        tm_scope: string;
+        ace_mode: string;
+        codemirror_mode: string;
+        codemirror_mime_type: string;
+        group: string;
+        language_id: number;
+    };
     Texinfo: {
         type: string;
         wrap: boolean;
@@ -5351,6 +5852,14 @@ declare const _default: {
         filenames: string[];
         tm_scope: string;
         ace_mode: string;
+        language_id: number;
+    };
+    TextGrid: {
+        type: string;
+        color: string;
+        tm_scope: string;
+        ace_mode: string;
+        extensions: string[];
         language_id: number;
     };
     "TextMate Properties": {
@@ -5380,6 +5889,14 @@ declare const _default: {
         color: string;
         tm_scope: string;
         extensions: string[];
+        ace_mode: string;
+        language_id: number;
+    };
+    Toit: {
+        type: string;
+        color: string;
+        extensions: string[];
+        tm_scope: string;
         ace_mode: string;
         language_id: number;
     };
@@ -5428,6 +5945,15 @@ declare const _default: {
         ace_mode: string;
         codemirror_mode: string;
         codemirror_mime_type: string;
+        language_id: number;
+    };
+    Typst: {
+        type: string;
+        color: string;
+        aliases: string[];
+        extensions: string[];
+        tm_scope: string;
+        ace_mode: string;
         language_id: number;
     };
     "Unified Parallel C": {
@@ -5653,6 +6179,23 @@ declare const _default: {
         tm_scope: string;
         language_id: number;
     };
+    WDL: {
+        aliases: string[];
+        type: string;
+        color: string;
+        extensions: string[];
+        tm_scope: string;
+        ace_mode: string;
+        language_id: number;
+    };
+    WGSL: {
+        type: string;
+        color: string;
+        extensions: string[];
+        tm_scope: string;
+        ace_mode: string;
+        language_id: number;
+    };
     "Wavefront Material": {
         type: string;
         extensions: string[];
@@ -5682,6 +6225,17 @@ declare const _default: {
         aliases: string[];
         tm_scope: string;
         ace_mode: string;
+        codemirror_mode: string;
+        codemirror_mime_type: string;
+        language_id: number;
+    };
+    "WebAssembly Interface Type": {
+        type: string;
+        color: string;
+        extensions: string[];
+        aliases: string[];
+        ace_mode: string;
+        tm_scope: string;
         codemirror_mode: string;
         codemirror_mime_type: string;
         language_id: number;
@@ -6052,6 +6606,15 @@ declare const _default: {
         ace_mode: string;
         language_id: number;
     };
+    crontab: {
+        type: string;
+        color: string;
+        aliases: string[];
+        filenames: string[];
+        tm_scope: string;
+        ace_mode: string;
+        language_id: number;
+    };
     desktop: {
         type: string;
         extensions: string[];
@@ -6102,21 +6665,24 @@ declare const _default: {
         extensions: string[];
         language_id: number;
     };
+    iCalendar: {
+        type: string;
+        color: string;
+        extensions: string[];
+        tm_scope: string;
+        aliases: string[];
+        ace_mode: string;
+        codemirror_mode: string;
+        codemirror_mime_type: string;
+        language_id: number;
+    };
     jq: {
         color: string;
         ace_mode: string;
         type: string;
         extensions: string[];
+        interpreters: string[];
         tm_scope: string;
-        language_id: number;
-    };
-    just: {
-        type: string;
-        aliases: string[];
-        color: string;
-        tm_scope: string;
-        filenames: string[];
-        ace_mode: string;
         language_id: number;
     };
     kvlang: {
@@ -6214,12 +6780,23 @@ declare const _default: {
         tm_scope: string;
         language_id: number;
     };
-    wdl: {
+    templ: {
+        type: string;
+        color: string;
+        extensions: string[];
+        ace_mode: string;
+        tm_scope: string;
+        language_id: number;
+    };
+    vCard: {
         type: string;
         color: string;
         extensions: string[];
         tm_scope: string;
+        aliases: string[];
         ace_mode: string;
+        codemirror_mode: string;
+        codemirror_mime_type: string;
         language_id: number;
     };
     wisp: {
@@ -6242,5 +6819,6 @@ declare const _default: {
         language_id: number;
     };
 };
-export default _default;
-//# sourceMappingURL=languagesData.d.ts.map
+export type languagesType = keyof typeof languagesData;
+export declare const languages: ("q" | "Shell" | "Assembly" | "TeX" | "Yacc" | "Bluespec" | "Haskell" | "CODEOWNERS" | "Caddyfile" | "Cairo" | "LigoLANG" | "ColdFusion" | "INI" | "Dockerfile" | "Prolog" | "Python" | "JavaScript" | "HTML" | "Elvish" | "RenderScript" | "Fortran" | "Gemfile.lock" | "TypeScript" | "Gradle" | "Groovy" | "Isabelle" | "Lex" | "JSON" | "Java" | "Julia" | "Lean" | "Agda" | "CoffeeScript" | "M4" | "Forth" | "Makefile" | "XML" | "OpenAPI Specification v2" | "OpenAPI Specification v3" | "C" | "Parrot" | "Roff" | "CSS" | "Procfile" | "Ruby" | "Smalltalk" | "Checksums" | "Singularity" | "HCL" | "XCompose" | "crontab" | "fish" | "jq" | "nanorc" | "robots.txt" | "sed" | "1C Enterprise" | "2-Dimensional Array" | "4D" | "ABAP" | "ABAP CDS" | "ABNF" | "AGS Script" | "AIDL" | "AL" | "AMPL" | "ANTLR" | "API Blueprint" | "APL" | "ASL" | "ASN.1" | "ASP.NET" | "ATS" | "ActionScript" | "Ada" | "Adblock Filter List" | "Adobe Font Metrics" | "Alloy" | "Alpine Abuild" | "Altium Designer" | "AngelScript" | "Ant Build System" | "Antlers" | "ApacheConf" | "Apex" | "Apollo Guidance Computer" | "AppleScript" | "Arc" | "AsciiDoc" | "AspectJ" | "Astro" | "Asymptote" | "Augeas" | "AutoHotkey" | "AutoIt" | "Avro IDL" | "Awk" | "B4X" | "BASIC" | "BQN" | "Ballerina" | "Batchfile" | "Beef" | "Befunge" | "Berry" | "BibTeX" | "Bicep" | "Bikeshed" | "Bison" | "BitBake" | "Blade" | "BlitzBasic" | "BlitzMax" | "Bluespec BH" | "Boo" | "Boogie" | "Brainfuck" | "BrighterScript" | "Brightscript" | "Browserslist" | "C#" | "C++" | "C-ObjDump" | "C2hs Haskell" | "CAP CDS" | "CIL" | "CLIPS" | "CMake" | "COBOL" | "COLLADA" | "CSON" | "CSV" | "CUE" | "CWeb" | "Cabal Config" | "Cadence" | "Cairo Zero" | "CameLIGO" | "Cap'n Proto" | "Carbon" | "CartoCSS" | "Ceylon" | "Chapel" | "Charity" | "ChucK" | "Circom" | "Cirru" | "Clarion" | "Clarity" | "Classic ASP" | "Clean" | "Click" | "Clojure" | "Closure Templates" | "Cloud Firestore Security Rules" | "CoNLL-U" | "CodeQL" | "ColdFusion CFC" | "Common Lisp" | "Common Workflow Language" | "Component Pascal" | "Cool" | "Coq" | "Cpp-ObjDump" | "Creole" | "Crystal" | "Csound" | "Csound Document" | "Csound Score" | "Cuda" | "Cue Sheet" | "Curry" | "Cycript" | "Cylc" | "Cypher" | "Cython" | "D" | "D-ObjDump" | "D2" | "DIGITAL Command Language" | "DM" | "DNS Zone" | "DTrace" | "Dafny" | "Darcs Patch" | "Dart" | "DataWeave" | "Debian Package Control File" | "DenizenScript" | "Dhall" | "Diff" | "DirectX 3D File" | "Dogescript" | "Dotenv" | "Dune" | "Dylan" | "E" | "E-mail" | "EBNF" | "ECL" | "ECLiPSe" | "EJS" | "EQ" | "Eagle" | "Earthly" | "Easybuild" | "Ecere Projects" | "Ecmarkup" | "Edge" | "EdgeQL" | "EditorConfig" | "Edje Data Collection" | "Eiffel" | "Elixir" | "Elm" | "Elvish Transcript" | "Emacs Lisp" | "EmberScript" | "Erlang" | "Euphoria" | "F#" | "F*" | "FIGlet Font" | "FIRRTL" | "FLUX" | "Factor" | "Fancy" | "Fantom" | "Faust" | "Fennel" | "Filebench WML" | "Filterscript" | "Fluent" | "Formatted" | "Fortran Free Form" | "FreeBasic" | "FreeMarker" | "Frege" | "Futhark" | "G-code" | "GAML" | "GAMS" | "GAP" | "GCC Machine Description" | "GDB" | "GDScript" | "GEDCOM" | "GLSL" | "GN" | "GSC" | "Game Maker Language" | "Gemini" | "Genero 4gl" | "Genero per" | "Genie" | "Genshi" | "Gentoo Ebuild" | "Gentoo Eclass" | "Gerber Image" | "Gettext Catalog" | "Gherkin" | "Git Attributes" | "Git Config" | "Git Revision List" | "Gleam" | "Glimmer JS" | "Glimmer TS" | "Glyph" | "Glyph Bitmap Distribution Format" | "Gnuplot" | "Go" | "Go Checksums" | "Go Module" | "Go Workspace" | "Godot Resource" | "Golo" | "Gosu" | "Grace" | "Gradle Kotlin DSL" | "Grammatical Framework" | "Graph Modeling Language" | "GraphQL" | "Graphviz (DOT)" | "Groovy Server Pages" | "HAProxy" | "HLSL" | "HOCON" | "HTML+ECR" | "HTML+EEX" | "HTML+ERB" | "HTML+PHP" | "HTML+Razor" | "HTTP" | "HXML" | "Hack" | "Haml" | "Handlebars" | "Harbour" | "Haxe" | "HiveQL" | "HolyC" | "Hosts File" | "Hy" | "HyPhy" | "IDL" | "IGOR Pro" | "IRC log" | "Idris" | "Ignore List" | "ImageJ Macro" | "Imba" | "Inform 7" | "Ink" | "Inno Setup" | "Io" | "Ioke" | "Isabelle ROOT" | "J" | "JAR Manifest" | "JCL" | "JFlex" | "JSON with Comments" | "JSON5" | "JSONLD" | "JSONiq" | "Janet" | "Jasmin" | "Java Properties" | "Java Server Pages" | "Java Template Engine" | "JavaScript+ERB" | "Jest Snapshot" | "JetBrains MPS" | "Jinja" | "Jison" | "Jison Lex" | "Jolie" | "Jsonnet" | "Julia REPL" | "Jupyter Notebook" | "Just" | "KRL" | "Kaitai Struct" | "KakouneScript" | "KerboScript" | "KiCad Layout" | "KiCad Legacy Layout" | "KiCad Schematic" | "Kickstart" | "Kit" | "Kotlin" | "Kusto" | "LFE" | "LLVM" | "LOLCODE" | "LSL" | "LTspice Symbol" | "LabVIEW" | "Lark" | "Lasso" | "Latte" | "Lean 4" | "Less" | "LilyPond" | "Limbo" | "Linker Script" | "Linux Kernel Module" | "Liquid" | "Literate Agda" | "Literate CoffeeScript" | "Literate Haskell" | "LiveCode Script" | "LiveScript" | "Logos" | "Logtalk" | "LookML" | "LoomScript" | "Lua" | "Luau" | "M" | "M4Sugar" | "MATLAB" | "MAXScript" | "MDX" | "MLIR" | "MQL4" | "MQL5" | "MTML" | "MUF" | "Macaulay2" | "Mako" | "Markdown" | "Marko" | "Mask" | "Mathematica" | "Maven POM" | "Max" | "Mercury" | "Mermaid" | "Meson" | "Metal" | "Microsoft Developer Studio Project" | "Microsoft Visual Studio Solution" | "MiniD" | "MiniYAML" | "Mint" | "Mirah" | "Modelica" | "Modula-2" | "Modula-3" | "Module Management System" | "Mojo" | "Monkey" | "Monkey C" | "Moocode" | "MoonScript" | "Motoko" | "Motorola 68K Assembly" | "Move" | "Muse" | "Mustache" | "Myghty" | "NASL" | "NCL" | "NEON" | "NL" | "NMODL" | "NPM Config" | "NSIS" | "NWScript" | "Nasal" | "Nearley" | "Nemerle" | "NetLinx" | "NetLinx+ERB" | "NetLogo" | "NewLisp" | "Nextflow" | "Nginx" | "Nim" | "Ninja" | "Nit" | "Nix" | "Noir" | "Nu" | "NumPy" | "Nunjucks" | "Nushell" | "OASv2-json" | "OASv2-yaml" | "OASv3-json" | "OASv3-yaml" | "OCaml" | "Oberon" | "ObjDump" | "Object Data Instance Notation" | "ObjectScript" | "Objective-C" | "Objective-C++" | "Objective-J" | "Odin" | "Omgrofl" | "Opa" | "Opal" | "Open Policy Agent" | "OpenCL" | "OpenEdge ABL" | "OpenQASM" | "OpenRC runscript" | "OpenSCAD" | "OpenStep Property List" | "OpenType Feature File" | "Option List" | "Org" | "Ox" | "Oxygene" | "Oz" | "P4" | "PDDL" | "PEG.js" | "PHP" | "PLSQL" | "PLpgSQL" | "POV-Ray SDL" | "Pact" | "Pan" | "Papyrus" | "Parrot Assembly" | "Parrot Internal Representation" | "Pascal" | "Pawn" | "Pep8" | "Perl" | "Pic" | "Pickle" | "PicoLisp" | "PigLatin" | "Pike" | "Pip Requirements" | "Pkl" | "PlantUML" | "Pod" | "Pod 6" | "PogoScript" | "Polar" | "Pony" | "Portugol" | "PostCSS" | "PostScript" | "PowerBuilder" | "PowerShell" | "Praat" | "Prisma" | "Processing" | "Proguard" | "Promela" | "Propeller Spin" | "Protocol Buffer" | "Protocol Buffer Text Format" | "Public Key" | "Pug" | "Puppet" | "Pure Data" | "PureBasic" | "PureScript" | "Pyret" | "Python console" | "Python traceback" | "Q#" | "QML" | "QMake" | "Qt Script" | "Quake" | "R" | "RAML" | "RBS" | "RDoc" | "REALbasic" | "REXX" | "RMarkdown" | "RON" | "RPC" | "RPGLE" | "RPM Spec" | "RUNOFF" | "Racket" | "Ragel" | "Raku" | "Rascal" | "Raw token data" | "ReScript" | "Readline Config" | "Reason" | "ReasonLIGO" | "Rebol" | "Record Jar" | "Red" | "Redcode" | "Redirect Rules" | "Regular Expression" | "Ren'Py" | "Rez" | "Rich Text Format" | "Ring" | "Riot" | "RobotFramework" | "Roc" | "Roff Manpage" | "Rouge" | "RouterOS Script" | "Rust" | "SAS" | "SCSS" | "SELinux Policy" | "SMT" | "SPARQL" | "SQF" | "SQL" | "SQLPL" | "SRecode Template" | "SSH Config" | "STAR" | "STL" | "STON" | "SVG" | "SWIG" | "Sage" | "SaltStack" | "Sass" | "Scala" | "Scaml" | "Scenic" | "Scheme" | "Scilab" | "Self" | "ShaderLab" | "ShellCheck Config" | "ShellSession" | "Shen" | "Sieve" | "Simple File Verification" | "Slash" | "Slice" | "Slim" | "Slint" | "SmPL" | "Smali" | "Smarty" | "Smithy" | "Snakemake" | "Solidity" | "Soong" | "SourcePawn" | "Spline Font Database" | "Squirrel" | "Stan" | "Standard ML" | "Starlark" | "Stata" | "StringTemplate" | "Stylus" | "SubRip Text" | "SugarSS" | "SuperCollider" | "Svelte" | "Sway" | "Sweave" | "Swift" | "SystemVerilog" | "TI Program" | "TL-Verilog" | "TLA" | "TOML" | "TSQL" | "TSV" | "TSX" | "TXL" | "Talon" | "Tcl" | "Tcsh" | "Tea" | "Terra" | "Terraform Template" | "Texinfo" | "Text" | "TextGrid" | "TextMate Properties" | "Textile" | "Thrift" | "Toit" | "Turing" | "Turtle" | "Twig" | "Type Language" | "Typst" | "Unified Parallel C" | "Unity3D Asset" | "Unix Assembly" | "Uno" | "UnrealScript" | "UrWeb" | "V" | "VBA" | "VBScript" | "VCL" | "VHDL" | "Vala" | "Valve Data Format" | "Velocity Template Language" | "Verilog" | "Vim Help File" | "Vim Script" | "Vim Snippet" | "Visual Basic .NET" | "Visual Basic 6.0" | "Volt" | "Vue" | "Vyper" | "WDL" | "WGSL" | "Wavefront Material" | "Wavefront Object" | "Web Ontology Language" | "WebAssembly" | "WebAssembly Interface Type" | "WebIDL" | "WebVTT" | "Wget Config" | "Whiley" | "Wikitext" | "Win32 Message File" | "Windows Registry Entries" | "Witcher Script" | "Wollok" | "World of Warcraft Addon Data" | "Wren" | "X BitMap" | "X Font Directory Index" | "X PixMap" | "X10" | "XC" | "XML Property List" | "XPages" | "XProc" | "XQuery" | "XS" | "XSLT" | "Xojo" | "Xonsh" | "Xtend" | "YAML" | "YANG" | "YARA" | "YASnippet" | "Yul" | "ZAP" | "ZIL" | "Zeek" | "ZenScript" | "Zephir" | "Zig" | "Zimpl" | "cURL Config" | "desktop" | "dircolors" | "eC" | "edn" | "hoon" | "iCalendar" | "kvlang" | "mIRC Script" | "mcfunction" | "mupad" | "nesC" | "ooc" | "reStructuredText" | "templ" | "vCard" | "wisp" | "xBase")[];
+//# sourceMappingURL=languages.d.ts.map

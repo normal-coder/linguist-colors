@@ -1,12 +1,11 @@
-import languagesData from "./languagesData";
-import Languages from "./languagesType";
+import { languagesType, languagesData } from "./languages";
 import { hexToRGB, RGBToString, RGBToHSL } from "./converter";
 
 type ColorFormat = "HEX" | "RGB" | "HSL";
 
-export default function getProgrammingLangColor(programmingLanguage: Languages, format: ColorFormat = "HEX") {
+export default function getProgrammingLangColor(programmingLanguage: languagesType, format: ColorFormat = "HEX") {
     const language = languagesData[programmingLanguage];
-    if (!language || language.type !== "programming") {
+    if (!language || language.type !== "programming" || !('color' in language) || !language.color) {
         return null;
     }
 
