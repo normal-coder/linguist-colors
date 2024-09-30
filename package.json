@@ -9,6 +9,7 @@
     "build": "tsc",
     "test": "jest --testPathPattern=test/",
     "update-linguist-language": "tsx scripts/update-linguist-language.ts",
+    "update-extensions-color": "tsx scripts/update-extensions-color.ts"
   },
   "repository": {
     "type": "git",

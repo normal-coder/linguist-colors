@@ -1,22 +1,20 @@
 import { languagesType, languagesData } from "./languages";
-import { hexToRGB, RGBToString, RGBToHSL } from "./converter";
+import { extensionType, extensionColorsData } from "./extensions";
+import { colorFormat, converter } from "./converter";
 
-type ColorFormat = "HEX" | "RGB" | "HSL";
+const linguistColors = {
+    getLangColor(programmingLanguage: languagesType, format: colorFormat = "HEX") {
+        const language = languagesData[programmingLanguage];
+        return (!language || language.type !== "programming" || !('color' in language) || !language.color)
+            ? null
+            : converter(language.color, format);
+    },
 
-export default function getProgrammingLangColor(programmingLanguage: languagesType, format: ColorFormat = "HEX") {
-    const language = languagesData[programmingLanguage];
-    if (!language || language.type !== "programming" || !('color' in language) || !language.color) {
-        return null;
-    }
-
-    const color = language.color;
-    const RGB = hexToRGB(color);
-    switch (format) {
-        case "HEX":
-            return color;
-        case "RGB":
-            return RGBToString(RGB);
-        case "HSL":
-            return RGBToHSL(RGB.r, RGB.g, RGB.b);
+    getExtensionColor(ext: extensionType, format: colorFormat = "HEX") {
+        return extensionColorsData[ext][0]
+            ? converter(extensionColorsData[ext][0], format)
+            : null
     }
 }
+
+export default linguistColors;
