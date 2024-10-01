@@ -1,43 +1,26 @@
-import getProgrammingLangColor from "../dist/index.js";
+import linguistColors from "../dist/index.js";
+import { languages, languagesData } from "../dist/languages.js";
 
-// HEX
-it("should return the HEX color for '1C Enterprise' language", () => {
-    console.time("Execution Time");
-    expect(getProgrammingLangColor("1C Enterprise", "HEX")).toBe("#814CCC");
-    console.timeEnd("Execution Time");
-});
+function testcase(func, param, colorFormat, toBeResult) {
+    let tip = "should return the " + colorFormat + " color for '";
+    switch (func) {
+        case "getLangColor":
+            it(tip + param + "' language as " + toBeResult, () => {
+                expect(linguistColors.getLangColor(param, colorFormat)).toBe(toBeResult);
+            });
+            break;
+        case "getExtensionColor":
+            it(tip + param + "' file extensions as " + toBeResult, () => {
+                expect(linguistColors.getExtensionColor(param, colorFormat)).toBe(toBeResult);
+            });
+            break;
+    }
+}
 
-// RGB
-it("should return the RGB color for '1C Enterprise' language", () => {
-    console.time("Execution Time");
-    expect(getProgrammingLangColor("1C Enterprise", "RGB")).toBe("rgb(129, 76, 204)");
-    console.timeEnd("Execution Time");
-});
-
-// HSL
-it("should return the HSL color for '1C Enterprise' language", () => {
-    console.time("Execution Time");
-    expect(getProgrammingLangColor("1C Enterprise", "HSL")).toBe("hsl(265, 56%, 55%)");
-    console.timeEnd("Execution Time");
-});
-
-// HEX
-it("should return the HEX color for 'Odin' language", () => {
-    console.time("Execution Time");
-    expect(getProgrammingLangColor("Odin", "HEX")).toBe("#60AFFE");
-    console.timeEnd("Execution Time");
-});
-
-// RGB
-it("should return the RGB color for 'Odin' language", () => {
-    console.time("Execution Time");
-    expect(getProgrammingLangColor("Odin", "RGB")).toBe("rgb(96, 175, 254)");
-    console.timeEnd("Execution Time");
-});
-
-// HSL
-it("should return the HSL color for 'Odin' language", () => {
-    console.time("Execution Time");
-    expect(getProgrammingLangColor("Odin", "HSL")).toBe("hsl(210, 99%, 69%)");
-    console.timeEnd("Execution Time");
-});
+testcase("getLangColor", "1C Enterprise", "HEX", "#814CCC");
+testcase("getLangColor", "1C Enterprise", "RGB", "rgb(129, 76, 204)");
+testcase("getLangColor", "1C Enterprise", "HSL", "hsl(265, 56%, 55%)");
+testcase("getLangColor", "Odin", "HEX", "#60AFFE");
+testcase("getLangColor", "Odin", "RGB", "rgb(96, 175, 254)");
+testcase("getLangColor", "Odin", "HSL", "hsl(210, 99%, 69%)");
+testcase("getExtensionColor", ".ts", "HEX", "#3178c6");
