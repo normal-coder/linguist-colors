@@ -1,6 +1,6 @@
 {
   "name": "linguist-colors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Programming language colors generated based on GitHub/linguist",
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
@@ -19,8 +19,11 @@
     "linguist",
     "programming",
     "programming-language",
-    "colors",
-    "language"
+    "language",
+    "file-extension",
+    "linguist-color",
+    "programming-color",
+    "colors"
   ],
   "author": {
     "name": "诺墨",
