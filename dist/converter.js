@@ -33,4 +33,15 @@ function RGBToHSL(r, g, b) {
     return `hsl(${HSL[0]}, ${HSL[1]}%, ${HSL[2]}%)`;
 }
 ;
-export { hexToRGB, RGBToString, RGBToHSL };
+function converter(color, format = "HEX") {
+    const RGB = hexToRGB(color);
+    switch (format) {
+        case "HEX":
+            return color;
+        case "RGB":
+            return RGBToString(RGB);
+        case "HSL":
+            return RGBToHSL(RGB.r, RGB.g, RGB.b);
+    }
+}
+export { converter, hexToRGB, RGBToString, RGBToHSL };
